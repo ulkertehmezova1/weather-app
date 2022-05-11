@@ -30,10 +30,10 @@ const updateUI = (data) => {
 
      let timeSrc=null;
      if (weather.IsDayTime) {
-         timeSrc='img/day.svg';
+         timeSrc='../img/day.svg';
      }
      else{
-         timeSrc='img/night.svg';
+         timeSrc='../img/night.svg';
      }
      time.setAttribute('src',timeSrc);
 
